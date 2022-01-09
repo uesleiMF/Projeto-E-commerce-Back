@@ -12,6 +12,7 @@ services:
     environment:
       POSTGRES_USER: ecomm
       POSTGRES_PASSWORD: 711179
+      
       POSTGRES_DB: comercio
 
 volumes:
