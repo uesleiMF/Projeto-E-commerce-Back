@@ -1,7 +1,7 @@
 import { IsString, IsNotEmpty, MinLength, IsNumber } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
 
-export class CreateGameDto {
+export class CreateEletroDto {
   @IsString()
   @IsNotEmpty()
   @MinLength(2)

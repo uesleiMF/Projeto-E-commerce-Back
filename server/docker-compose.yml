@@ -10,9 +10,8 @@ services:
     volumes:
       -comercio-disk:/var/lib/postgresql/data
     environment:
-      POSTGRES_USER: ecomm
+      POSTGRES_USER: admin
       POSTGRES_PASSWORD: 711179
-      
       POSTGRES_DB: comercio
 
 volumes:

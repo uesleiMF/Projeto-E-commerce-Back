@@ -1,2 +1,2 @@
 -- DropIndex
-DROP INDEX "Game_name_key";
+DROP INDEX "Eletro_name_key";

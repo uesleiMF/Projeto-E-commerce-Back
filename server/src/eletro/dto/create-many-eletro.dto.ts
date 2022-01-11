@@ -1,9 +1,9 @@
-import { CreateGameDto } from './create-game.dto';
+import { CreateEletroDto } from './create-eletro.dto';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty } from 'class-validator';
 
-export class CreateManyGamesDto {
+export class CreateManyEletrosDto {
   @IsNotEmpty()
   @ApiProperty()
-  games: CreateGameDto[];
+  eletros: CreateEletroDto[];
 }

@@ -10,10 +10,10 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
 
   const config = new DocumentBuilder()
-    .setTitle('Nintendo Store')
-    .setDescription('API que simula a loja oficial da Nintendo')
+    .setTitle('Sansung')
+    .setDescription('API que simula a loja oficial da Sansung')
     .setVersion('1.0')
-    .addTag('nintendo')
+    .addTag('sansung')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
